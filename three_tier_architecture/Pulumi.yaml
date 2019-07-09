@@ -1,0 +1,3 @@
+name: Three_tier_architecture
+runtime: nodejs
+description: To deploy infrastructre as a code using Pulumi.
