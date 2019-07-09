@@ -1,5 +1,5 @@
 
-# Deploying three architecure using Pulumi
+# Deploying three  tier architecure using Pulumi
 
 
 The three   architecture  is a basic model for developing a web database application and communication is done using this 3-level application logic.
