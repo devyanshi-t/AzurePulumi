@@ -11,7 +11,7 @@ Note: Incase of Disaster Recovery we are modifying the database NSG so that the 
 
 ## Architecture implemented
 <p allign="center">
-<img src="./highlevel.png">
+<img src="./highlevelpic.png">
 </p>
 
 ## Method  to deploy  the javascript file using Pulumi in Azure:
