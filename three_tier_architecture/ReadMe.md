@@ -27,22 +27,6 @@ Figure 1.3 High Level View of the Architecture </br>
 </p>
 
 ## Method  to deploy  the javascript file using Pulumi in Azure:
-
-### Installation
- [`Download Pulumi`](https://www.pulumi.com/docs/reference/install/) )
-
-- After Installation, verify pulumi is installed or not by using
-```bash
-$ pulumi version
-```
-```bash
-$ npm install @pulumi/azure
-```
-
-- Create a New Project
-```bash
-$ pulumi new azure-javascript
-```
 ### Command Line Interface(CLI)
 
 On the  CLI type the command .
