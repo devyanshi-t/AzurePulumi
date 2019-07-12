@@ -7,5 +7,3 @@ Azure Virtual Network (VNet) is the fundamental building block for your private 
 ```bash
  pulumi up
 ```
-## Author
-[`Devyanshi Tiwari`](https://github.com/devyanshi-t)<br />

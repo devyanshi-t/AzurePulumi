@@ -34,6 +34,5 @@ On the  CLI type the command .
 pulumi new
 pulumi up
 ```
-## Author
-[`Devyanshi Tiwari`](https://github.com/devyanshi-t)<br />
+## Disaster Recovery
 
