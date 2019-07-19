@@ -19,8 +19,8 @@ class NSG extends pulumi.ComponentResource{
             "protocol": "*",
             "sourcePortRange": "*",
             "destinationPortRange": "3306",
-            "sourceAddressPrefixes": [subnet2],
-            "destinationAddressPrefixes": [subnet3],
+            "sourceAddressPrefix": subnet2,
+            "destinationAddressPrefix": subnet3,
             "access": "Allow",
             "priority": 100,
             "direction": "Inbound"
@@ -33,7 +33,7 @@ class NSG extends pulumi.ComponentResource{
             "sourcePortRange": "*",
             "destinationPortRange": "22",
             "sourceAddressPrefix": "*",
-            "destinationAddressPrefixes": [subnet3],
+            "destinationAddressPrefix": subnet3,
             "access": "Allow",
             "priority": 120,
             "direction": "Inbound"
@@ -46,8 +46,8 @@ class NSG extends pulumi.ComponentResource{
             "protocol": "*",
             "sourcePortRange": "*",
             "destinationPortRange": "443",
-            "sourceAddressPrefixes": [subnet3],
-            "destinationAddressPrefixes": [subnet2],
+            "sourceAddressPrefix": subnet3,
+            "destinationAddressPrefix": subnet2,
             "access": "Allow",
             "priority": 101,
             "direction": "Outbound"
@@ -60,8 +60,8 @@ class NSG extends pulumi.ComponentResource{
             "protocol": "*",
             "sourcePortRange": "*",
             "destinationPortRange": "*",
-            "sourceAddressPrefixes": [subnet3],
-            "destinationAddressPrefixes": [subnet1],
+            "sourceAddressPrefix": subnet3,
+            "destinationAddressPrefix": subnet1,
             "access": "Deny",
             "priority": 110,
             "direction": "Outbound"
