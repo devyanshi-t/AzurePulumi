@@ -20,7 +20,7 @@ Figure 1.2: Detailed Architecture in Azure
 
 </p>
 
-###  Detail of the Architecture implemented
+###  Detail of the Architecture implemented are
 <p allign="center">
 <img src="./Diagrams/Scenario.png">
 Figure 1.3 High Level View of the Architecture </br>
