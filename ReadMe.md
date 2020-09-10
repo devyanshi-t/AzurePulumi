@@ -8,7 +8,7 @@
 Like Terraform , Pulumi is also a tool to deploy infrastructure as a code (IaC).<br/>
 Pulumi supports all major clouds — including  Azure,Amazon Web Services (AWS) and Google Cloud, as well as Kubernetes clusters.<br/>
 
-This repositry provides with javascript codes for  resource deployment in Microsoft Azure.
+This repositry contains javascript codes for  resource deployment in Microsoft Azure.
 
 
 ## Author
